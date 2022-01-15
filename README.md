@@ -1,21 +1,21 @@
 # turtle_koeiluja
 Erilaisia pythonin turtle moduulilla tehtyjä kokeiluja.
 ## Moduulit
-1. tl
+* tl
 ### Metodit
-1. kartta
-    1. koko
-    2. väri(RGB)
-2. nelio
-    1. koko
-    2. turtle
-3. rivi
-    1. x
-    2. y
-    3. p eli pituus
-    4. k eli turtle
-    5. väri
-4. siirry
-    1. x
-    2. y
-    3. t eli turtle
+* kartta
+    * koko
+    * väri(RGB)
+* nelio
+    * koko
+    * turtle
+* rivi
+    * x
+    * y
+    * p eli pituus
+    * k eli turtle
+    * väri
+* siirry
+    * x
+    * y
+    * t eli turtle
