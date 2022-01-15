@@ -5,10 +5,10 @@ def neighbours(cell,size):
     for c in product(*(range(n-1, n+2) for n in cell)):
         if c != cell and all(0 <= n < size for n in c):
             yield c
-def siirry(x,y,p):
-    p.penup()
-    p.goto(x,y)
-    p.pendown()
+def siirry(x,y,t):
+    t.penup()
+    t.goto(x,y)
+    t.pendown()
 def kartta(x,y,c=(255,255,255)):
     return [[c for i in range(x)] for i in range(y)]
 def varita(k,size):
@@ -25,3 +25,9 @@ def neliojuuri(k,x):
     for a in range(x):
         for b in range(x):
             k[a][b] = (round(math.sqrt(k[a][b][0])),round(math.sqrt(k[a][b][1])),round(math.sqrt(k[a][b][2])))
+def nelio(x,t):
+    t.begin_fill()
+    for a in range(4):
+        t.forward(x)
+        t.right(90)
+    t.end_fill()
