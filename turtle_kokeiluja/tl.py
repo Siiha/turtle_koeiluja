@@ -31,7 +31,7 @@ def nelio(x,t):
         t.forward(x)
         t.right(90)
     t.end_fill()
-def rivi(x,y,p,k,v,t):
-    return [[(i+x,y),v] for i in range(0,k*p+round(x/k),k)]
-def pysty():
-    pass
+def rivi(x,y,p,k,v):
+    return [[(i+x,y),v] for i in range(0,k*p,k)]
+def pysty(x,y,p,k,v):
+    return [[(x,y+i),v] for i in range(0,k*p,k)]
