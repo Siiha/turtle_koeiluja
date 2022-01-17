@@ -13,7 +13,7 @@ tl
     * x
     * y
     * p eli pituus
-    * k eli turtle
+    * k eli yhden neliön koko
     * väri
 * siirry
     * x
