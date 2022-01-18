@@ -1,3 +1,4 @@
+on:
 jobs:
   workflow-command-job:
     runs-on: ubuntu-latest
