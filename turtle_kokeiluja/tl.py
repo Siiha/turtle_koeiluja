@@ -35,3 +35,9 @@ def rivi(x,y,p,k,v):
     return [[(i+x,y),v] for i in range(0,k*p,k)]
 def pysty(x,y,p,k,v):
     return [[(x,y+i),v] for i in range(0,k*p,k)]
+def vino(x,y,p,k,va=0,v=(0,0,0)):
+    if va == 0:
+        return [[(a,b),v] for a,b in zip(range(x,p*k+x,k),range(y,p*k+x,k))]
+    if va == 1:
+        return [[(a,b),v] for a,b in zip(range(x,p*k*-1,-k),range(y,p*k,k))]
+
