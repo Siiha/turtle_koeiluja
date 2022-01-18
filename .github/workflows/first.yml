@@ -1,7 +1,0 @@
-- name: Flutter test & compile
-  # You may pin to the exact commit or the version.
-  # uses: emiliodallatorre/flutter-action@2a037a6eb36e8a92fd0c4d322de4216ddfe2be5c
-  uses: emiliodallatorre/flutter-action@v2
-  with:
-    # Flutter channel
-    channel: # default is stable
